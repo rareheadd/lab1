@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+
+}
+
+h1, h2 {
+    color: #333;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #0077cc;
+}
+
+a:hover {
+    color: #005fa3;
+}
+
+button {
+    display: block;
+    width: 120px;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+button:disabled {
+    background-color: #8ab6d6;
+    cursor: not-allowed; /* Zmieniamy kursor na niedostępny dla przycisków wyłączonych */
+}
+
+
+}
